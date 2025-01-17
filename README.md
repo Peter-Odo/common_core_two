@@ -99,3 +99,25 @@ git commit -m 'Describe your changes'
 ```
 git push origin <branch_name>
 ```
+
+## Collaborating with Branches
+
+### What is a branch?
+
+- A branch is a pointer to specific commit, allowing us to work features or fixes independently of the main (master) code base.
+- Main Branch (main, master, production): The default branch (for production-ready code).
+- Feature Branches: Temporary branches created for specific tasks (e.g, feature-update-config-files)
+
+[x] Create a branch
+
+```
+git branch <branch_name>    # Creates branch
+
+git checkout -b <branch_name> # Creates branch and switches us to that branch
+```
+
+[x] Switch to the Branch
+
+```
+git checkout <branch_name>
+```
