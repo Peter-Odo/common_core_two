@@ -121,3 +121,18 @@ git checkout -b <branch_name> # Creates branch and switches us to that branch
 ```
 git checkout <branch_name>
 ```
+
+### Merging and Pulling
+
+[x] Merge: Combines changes from one branch into another.
+
+```
+git checkout <branch_to_merge_to>
+git merge <branch_to_merge_from>
+```
+
+[x] Pull Changes: This pulls an updated change from a repository to our local setup (repository)
+
+```
+git pull origin <branch_name>
+```
