@@ -93,3 +93,9 @@ git add .              # Stage all changes
 ```
 git commit -m 'Describe your changes'
 ```
+
+[x] Push changes: Uploads local commits to a remote repository (e.g., GitHub)
+
+```
+git push origin <branch_name>
+```
